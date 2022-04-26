@@ -1,0 +1,9 @@
+source /opt/ros/eloquent/setup.bash
+cd ./ros2
+. install/setup.bash
+cd ..
+
+
+python3 utils/collect_data.py
+python3 utils/data_processing.py
+python3 main.py
